@@ -2,7 +2,6 @@
  {"GithubUser": "apache"},
  {"GithubUser": "asciidoctor"},
  {"GithubUser": "ampproject"},
- {"GithubUser": "android-pay"},
  {"GithubUser": "angular",
   "Exclude": "code.angularjs.org"
  },
@@ -76,7 +75,6 @@
  {"GithubUser": "kubernetes"},
  {"GithubUser": "lilypond"},
  {"GithubUser": "llvm-mirror"},
- {"GithubUser": "material-components-web"},
  {"GithubUser": "material-foundation"},
  {"GithubUser": "material-motion"},
  {"GithubUser": "mdialog"},
@@ -92,7 +90,6 @@
  {"GithubUser": "polymer"},
  {"GithubUser": "polymerelements"},
  {"GithubUser": "polymerlabs"},
- {"GithubUser": "projecttango"},
  {"GithubUser": "quiverdart"},
  {"GithubUser": "robohornet"},
  {"GithubUser": "rosjava"},
