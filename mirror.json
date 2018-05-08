@@ -1,5 +1,7 @@
 [{"GithubUser": "GoogleCloudPlatform"},
- {"GithubUser": "apache"},
+ {"GithubUser": "apache",
+  "Exclude": ".*-(web)?site$"
+ },
  {"GithubUser": "asciidoctor"},
  {"GithubUser": "ampproject"},
  {"GithubUser": "angular",
