@@ -75,6 +75,7 @@
  {"GithubUser": "junit-team"},
  {"GithubUser": "karma-runner"},
  {"GithubUser": "kubernetes"},
+ {"GithubUser": "libfuse"},
  {"GithubUser": "lilypond"},
  {"GithubUser": "llvm-mirror"},
  {"GithubUser": "material-foundation"},
