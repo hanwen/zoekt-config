@@ -90,6 +90,9 @@
  {"GithubUser": "nestlabs"},
  {"GithubUser": "openconfig"},
  {"GithubUser": "openthread"},
+ {"GithubUser": "openstack-infra",
+  "Name": "(gerritlib|git-review)"
+ },
  {"GithubUser": "osxfuse"},
  {"GithubUser": "pagespeed"},
  {"GithubUser": "playgameservices"},
