@@ -137,5 +137,7 @@
  {"GitilesURL": "https://skia.googlesource.com"},
  {"GitilesURL": "https://swiftshader.googlesource.com"},
  {"GitilesURL": "https://boringssl.googlesource.com"},
- {"GitilesURL": "https://melange.googlesource.com"}
+ {"GitilesURL": "https://melange.googlesource.com"},
+ {"CGitURL": "https://git.savannah.nongnu.org/cgit/",
+  "Name": "(guile|ghostscript|coreutils|diffutils|^tar$)"}
 ]
