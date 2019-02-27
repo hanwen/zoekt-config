@@ -1,0 +1,4 @@
+steps:
+- name: 'gcr.io/cloud-builders/go'
+  args: ['test', '.']
+  env: ['PROJECT_ROOT=zoekt-config']
