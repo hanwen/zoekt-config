@@ -79,6 +79,7 @@
  {"GithubUser": "junit-team"},
  {"GithubUser": "karma-runner"},
  {"GithubUser": "kubernetes"},
+ {"GithubUser": "kythe"},
  {"GithubUser": "libfuse"},
  {"GithubUser": "lilypond"},
  {"GithubUser": "llvm-mirror"},
