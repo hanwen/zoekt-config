@@ -15,7 +15,9 @@
  {"GithubUser": "bumptech"},
  {"GithubUser": "catapult-project"},
  {"GithubUser": "chromecast"},
- {"GithubUser": "chromium"},
+ {"GithubUser": "chromium",
+  "Exclude": "chromium"
+ },
  {"GithubUser": "cloudendpoints"},
  {"GithubUser": "crack-lang"},
  {"GithubUser": "dart-lang"},
@@ -100,8 +102,6 @@
  {"GithubUser": "playgameservices"},
  {"GithubUser": "playservices"},
  {"GithubUser": "polymer"},
- {"GithubUser": "polymerelements"},
- {"GithubUser": "polymerlabs"},
  {"GithubUser": "quiverdart"},
  {"GithubUser": "robohornet"},
  {"GithubUser": "rosjava"},
@@ -129,10 +129,10 @@
  {"GithubUser": "zxing"},
  {"GitilesURL": "https://go.googlesource.com"},
  {"GitilesURL": "https://chromium.googlesource.com",
-  "Exclude": "^(aosp|experimental/|chromiumos/|external/|chromium/src/out)"
+  "Exclude": "^(aosp|experimental/|chromiumos/|external/|chromium/src/out|codesearch/chromium/src)"
  },
  {"GitilesURL": "https://android.googlesource.com",
-  "Exclude": "^(toolchain|platform/hardware|platform/prebuilts|kernel|device|mirror/superproject)"},
+  "Exclude": "^(toolchain|platform/hardware|platform/prebuilts|kernel|device|mirror/superproject|platform/external/chrom.*)"},
  {"GitilesURL": "https://gerrit.googlesource.com", "Exclude": "^buck"},
  {"GitilesURL": "https://eclipse.googlesource.com", "Name": "jgit"},
  {"GitilesURL": "https://kernel.googlesource.com", "Name": "pub/scm/linux/kernel/git/torvalds/linux"},
