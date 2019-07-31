@@ -8,7 +8,6 @@
   "Exclude": "code.angularjs.org"
  },
  {"GithubUser": "angular-examples"},
- {"GithubUser": "arduino"},
  {"GithubUser": "appsscript"},
  {"GithubUser": "bazelbuild"},
  {"GithubUser": "bazil"},
@@ -16,7 +15,7 @@
  {"GithubUser": "catapult-project"},
  {"GithubUser": "chromecast"},
  {"GithubUser": "chromium",
-  "Exclude": "chromium"
+  "Exclude": "(chromium|.*third_party.*)"
  },
  {"GithubUser": "cloudendpoints"},
  {"GithubUser": "crack-lang"},
