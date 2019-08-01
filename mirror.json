@@ -130,7 +130,7 @@
  {"GithubUser": "zxing"},
  {"GitilesURL": "https://go.googlesource.com"},
  {"GitilesURL": "https://chromium.googlesource.com",
-  "Exclude": "^(aosp|experimental/|chromiumos/|external/|chromium/src/out|codesearch/chromium/src)"
+  "Exclude": "^(aosp|experimental/|chromiumos/|external/|chromium/src/out|.*codesearch.*)"
  },
  {"GitilesURL": "https://android.googlesource.com",
   "Exclude": "^(toolchain|platform/hardware|platform/prebuilts|kernel|device|mirror/superproject|platform/external/chrom.*)"},
