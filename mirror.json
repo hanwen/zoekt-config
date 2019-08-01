@@ -38,7 +38,9 @@
  {"GithubUser": "gdg-speakers"},
  {"GithubUser": "gdgworkshop"},
  {"GithubUser": "git"},
- {"GithubUser": "google"},
+ {"GithubUser": "google",
+  "Exclude": "(kmsan|ktsan)"
+ },
  {"GithubUser": "google-developer-training"},
  {"GithubUser": "googleadminsdk"},
  {"GithubUser": "googleads"},
