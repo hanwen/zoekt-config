@@ -134,7 +134,7 @@
  },
  {"GitilesURL": "https://android.googlesource.com",
   "Exclude": "^(toolchain|platform/hardware|platform/prebuilts|kernel|device|mirror/superproject|platform/external/chrom.*)"},
- {"GitilesURL": "https://gerrit.googlesource.com", "Exclude": "^buck"},
+ {"GitilesURL": "https://gerrit.googlesource.com", "Exclude": "^(buck|plugins/hooks-(its|bugzilla))"},
  {"GitilesURL": "https://eclipse.googlesource.com", "Name": "jgit"},
  {"GitilesURL": "https://kernel.googlesource.com", "Name": "pub/scm/linux/kernel/git/torvalds/linux"},
  {"GitilesURL": "https://gwt.googlesource.com"},
