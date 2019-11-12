@@ -85,6 +85,7 @@
  {"GithubUser": "kubernetes"},
  {"GithubUser": "kythe"},
  {"GithubUser": "libfuse"},
+ {"GithubUser": "libgit2"},
  {"GithubUser": "lilypond"},
  {"GithubUser": "llvm-mirror"},
  {"GithubUser": "material-foundation"},
