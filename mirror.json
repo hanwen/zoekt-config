@@ -88,6 +88,7 @@
  {"GithubUser": "libgit2"},
  {"GithubUser": "lilypond"},
  {"GithubUser": "llvm-mirror"},
+ {"GithubUser": "madler"},
  {"GithubUser": "material-foundation"},
  {"GithubUser": "material-motion"},
  {"GithubUser": "mdialog"},
