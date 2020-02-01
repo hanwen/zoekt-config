@@ -39,6 +39,7 @@
  {"GithubUser": "gdg-speakers"},
  {"GithubUser": "gdgworkshop"},
  {"GithubUser": "git"},
+ {"GithubUser": "gnucash"},
  {"GithubUser": "google",
   "Exclude": "(kmsan|ktsan)"
  },
@@ -118,6 +119,7 @@
  {"GithubUser": "src-d"},
  {"GithubUser": "tensorflow"},
  {"GithubUser": "tesseract-ocr"},
+ {"GithubUser": "texmacs"},
  {"GithubUser": "tytso"},
  {"GithubUser": "universal-ctags"},
  {"GithubUser": "uxa"},
@@ -148,5 +150,5 @@
  {"GitilesURL": "https://boringssl.googlesource.com"},
  {"GitilesURL": "https://melange.googlesource.com"},
  {"CGitURL": "https://git.savannah.nongnu.org/cgit/",
-  "Name": "(guile|ghostscript|coreutils|diffutils|^tar$)"}
+  "Name": "((ghostscript|coreutils|gdb|diffutils|^tar$)|.*guile.*)"}
 ]
