@@ -16,9 +16,6 @@
  {"GithubUser": "bumptech"},
  {"GithubUser": "catapult-project"},
  {"GithubUser": "chromecast"},
- {"GithubUser": "chromium",
-  "Exclude": "(chromium|.*third_party.*)"
- },
  {"GithubUser": "cloudendpoints"},
  {"GithubUser": "crack-lang"},
  {"GithubUser": "dart-lang"},
@@ -35,7 +32,9 @@
  {"GithubUser": "foam-framework"},
  {"GithubUser": "freebase"},
  {"GithubUser": "fuchsia-mirror"},
- {"GithubUser": "ganeti"},
+ {"GithubUser": "ganeti",
+  "Exclude": "website"
+ },
  {"GithubUser": "gdg-speakers"},
  {"GithubUser": "gdgworkshop"},
  {"GithubUser": "git"},
@@ -136,7 +135,7 @@
  {"GithubUser": "zxing"},
  {"GitilesURL": "https://go.googlesource.com"},
  {"GitilesURL": "https://chromium.googlesource.com",
-  "Exclude": "^(aosp|experimental/|chromiumos/|external/|chromium/src/out|.*codesearch.*)"
+  "Exclude": "^(aosp|private.*|experimental/|chromiumos/|external/|chromium/src/out|.*codesearch.*)"
  },
  {"GitilesURL": "https://android.googlesource.com",
   "Exclude": "^(toolchain|platform/hardware|platform/prebuilts|kernel|device|mirror/superproject|platform/external/chrom.*)"},
