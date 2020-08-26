@@ -1,7 +1,7 @@
 [{"GithubUser": "GoogleCloudPlatform"},
  {"GithubUser": "GNOME"},
  {"GithubUser": "apache",
-  "Exclude": ".*-(web)?site$"
+  "Exclude": "(.*-(web)?site|archiva-web-content)$"
  },
  {"GithubUser": "asciidoctor"},
  {"GithubUser": "ampproject"},
@@ -26,14 +26,16 @@
  {"GithubUser": "dropcam"},
  {"GithubUser": "dulwich"},
  {"GithubUser": "emacs-mirror"},
- {"GithubUser": "evmar"},
+ {"GithubUser": "evmar",
+  "Exclude": "HarfBuzz"
+ },
  {"GithubUser": "firebase"},
  {"GithubUser": "flutter"},
  {"GithubUser": "foam-framework"},
  {"GithubUser": "freebase"},
  {"GithubUser": "fuchsia-mirror"},
  {"GithubUser": "ganeti",
-  "Exclude": "website"
+  "Exclude": "^(website|docs)$"
  },
  {"GithubUser": "gdg-speakers"},
  {"GithubUser": "gdgworkshop"},
@@ -111,9 +113,13 @@
  {"GithubUser": "robohornet"},
  {"GithubUser": "rosjava"},
  {"GithubUser": "sirthias"},
- {"GithubUser": "sourcegraph"},
+ {"GithubUser": "sourcegraph",
+  "Exclude": "^ghdump"
+ },
  {"GithubUser": "stackdriver"},
- {"GithubUser": "sparkfun"},
+ {"GithubUser": "sparkfun",
+  "Exclude": "3D_Models"
+ },
  {"GithubUser": "spinnaker"},
  {"GithubUser": "src-d"},
  {"GithubUser": "tensorflow"},
@@ -135,7 +141,7 @@
  {"GithubUser": "zxing"},
  {"GitilesURL": "https://go.googlesource.com"},
  {"GitilesURL": "https://chromium.googlesource.com",
-  "Exclude": "^(aosp|private.*|experimental/|chromiumos/|external/|chromium/src/out|.*codesearch.*)"
+  "Exclude": "^(aosp|private.*|experimental/|chromiumos/|external/|chromium/src/out|.*codesearch.*|.*dart.*)"
  },
  {"GitilesURL": "https://android.googlesource.com",
   "Exclude": "^(toolchain|platform/hardware|platform/prebuilts|kernel|device|mirror/superproject|platform/external/chrom.*)"},
