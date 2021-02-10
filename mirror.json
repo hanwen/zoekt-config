@@ -85,6 +85,7 @@
  {"GithubUser": "jigsaw-code"},
  {"GithubUser": "junit-team"},
  {"GithubUser": "karma-runner"},
+ {"GithubUser": "kohsuke"},
  {"GithubUser": "kubernetes"},
  {"GithubUser": "kythe"},
  {"GithubUser": "libfuse"},
