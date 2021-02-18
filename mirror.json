@@ -1,5 +1,6 @@
 [{"GithubUser": "GoogleCloudPlatform"},
  {"GithubUser": "GNOME"},
+ {"GithubUser": "Jigsaw-Code"},
  {"GithubUser": "apache",
   "Exclude": "(.*-(web)?site|archiva-web-content)$"
  },
