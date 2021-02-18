@@ -83,7 +83,9 @@
  {"GithubUser": "jacobsa"},
  {"GithubUser": "jibemobile"},
  {"GithubUser": "jigsaw-code"},
- {"GithubUser": "junit-team"},
+ {"GithubUser": "junit-team",
+  "Exclude": ".*mailinglist.*"
+ },
  {"GithubUser": "karma-runner"},
  {"GithubUser": "kohsuke"},
  {"GithubUser": "kubernetes"},
