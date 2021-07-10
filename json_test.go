@@ -5,15 +5,9 @@ import (
 	"io/ioutil"
 	"regexp"
 	"testing"
-)
 
-type configEntry struct {
-	GithubUser string
-	GitilesURL string
-	CGitURL    string
-	Name       string
-	Exclude    string
-}
+	srv "github.com/google/zoekt/cmd/zoekt-indexserver"
+)
 
 func TestJSON(t *testing.T) {
 	j, err := ioutil.ReadFile("mirror.json")
@@ -21,7 +15,7 @@ func TestJSON(t *testing.T) {
 		t.Fatalf("ReadFile: %v", err)
 	}
 
-	result := []configEntry{}
+	result := []srv.ConfigEntry{}
 	if err := json.Unmarshal(j, &result); err != nil {
 		t.Fatalf("Unmarshal: %v", err)
 	}
