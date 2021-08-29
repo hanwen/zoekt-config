@@ -34,6 +34,7 @@
  {"GithubUser": "flutter"},
  {"GithubUser": "foam-framework"},
  {"GithubUser": "freebase"},
+ {"GithubUser": "freedesktop"},
  {"GithubUser": "fuchsia-mirror"},
  {"GithubUser": "ganeti",
   "Exclude": "^(website|docs)$"
